@@ -5,6 +5,7 @@ int val = 0;                //variable to store the read value
 void setup() {
   // put your setup code here, to run once:
   pinMode(ledPin, OUTPUT);    //sets the pin as output
+  Serial.begin(9600);
 }
 
 void loop() {
